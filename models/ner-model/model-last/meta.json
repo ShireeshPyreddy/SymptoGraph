@@ -1,0 +1,724 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.3,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"512241e12",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "Constipation",
+      "abdominal pain",
+      "acidity",
+      "anxiety",
+      "asthma",
+      "back pain",
+      "belly pain",
+      "blackheads",
+      "blocked nose",
+      "blurred and distorted vision",
+      "breathing problems",
+      "breathlessness",
+      "bruising",
+      "chest aches",
+      "chest discomfort",
+      "chest pain",
+      "chills",
+      "congestion",
+      "cough",
+      "coughing",
+      "cramps",
+      "dark urine",
+      "deep cracks",
+      "depression",
+      "diarrhea",
+      "diarrhoea",
+      "dizziness",
+      "dry cough",
+      "excessive hunger",
+      "fatigue",
+      "feeling extremely weak",
+      "fever",
+      "flaky patches",
+      "hacking cough",
+      "headache",
+      "headaches",
+      "high fever",
+      "increased appetite",
+      "indigestion",
+      "irritability",
+      "irritating skin rash",
+      "itching",
+      "itchy eyes",
+      "joint pain",
+      "lethargy",
+      "lightheaded",
+      "loss of appetite",
+      "loss of balance",
+      "malaise",
+      "migraines",
+      "mild fever",
+      "mood swings",
+      "mucoid sputum",
+      "muscle pain",
+      "muscle weakness",
+      "my swollen joints",
+      "nasal congestion",
+      "nausea",
+      "nauseous",
+      "neck pain",
+      "noticeable inflammation",
+      "obesity",
+      "pain during bowel movements",
+      "painful to walk",
+      "palpitations",
+      "phlegm",
+      "pimples",
+      "plugged nose",
+      "rash",
+      "rashes",
+      "runnny nose",
+      "runny eyes",
+      "runny nose",
+      "scaly patches",
+      "scurring",
+      "severe muscular weakness",
+      "severe nausea",
+      "severe rash",
+      "severe skin rash",
+      "shivering",
+      "short of breath",
+      "silver like dusting",
+      "sinus pressure",
+      "skin irritations",
+      "skin peeling",
+      "skin rash",
+      "sneeze",
+      "sore throat",
+      "stiff neck",
+      "stiffness",
+      "stinging sensation",
+      "stomach aches",
+      "stomach cramps",
+      "stomach discomfort",
+      "stomach pain",
+      "suffering neck muscle weakness",
+      "sweating",
+      "swelling joints",
+      "swollen blood vessels",
+      "terrible muscle weakness",
+      "throat itchiness",
+      "tremors",
+      "trouble breathing",
+      "trouble swallowing",
+      "urinary tract infections",
+      "visual disturbances",
+      "vomiting",
+      "watery eyes",
+      "weight gain",
+      "weight loss",
+      "wheezing",
+      "woozy",
+      "yeast infections"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":1.0,
+    "ents_p":1.0,
+    "ents_r":1.0,
+    "ents_per_type":{
+      "skin rash":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "scaly patches":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "stinging sensation":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "joint pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "silver like dusting":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "rashes":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "deep cracks":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "noticeable inflammation":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "fatigue":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "malaise":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "rash":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "skin peeling":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "itching":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "flaky patches":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "bruising":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "cramps":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "swollen blood vessels":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "obesity":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Constipation":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "belly pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "chills":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "mild fever":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "diarrhea":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "fever":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "abdominal pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "vomiting":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "headache":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "nausea":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "high fever":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "nauseous":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "headaches":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "stomach pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "stomach discomfort":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "stomach aches":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "diarrhoea":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "weight loss":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "shivering":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "back pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "muscle pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "stomach cramps":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "dizziness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "sweating":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "loss of appetite":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "neck pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "pimples":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "coughing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "cough":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "sinus pressure":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "wheezing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "phlegm":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "trouble breathing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "breathing problems":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "sore throat":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "congestion":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "runny nose":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "chest pain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "watery eyes":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "chest aches":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "lethargy":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "pain during bowel movements":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "stiffness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "painful to walk":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "severe muscular weakness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "terrible muscle weakness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "suffering neck muscle weakness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "swelling joints":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "feeling extremely weak":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "my swollen joints":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "stiff neck":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "muscle weakness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "blackheads":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "scurring":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "severe rash":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "severe skin rash":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "irritating skin rash":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "dry cough":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "mucoid sputum":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "loss of balance":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "chest discomfort":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "lightheaded":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "acidity":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "indigestion":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "visual disturbances":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "blurred and distorted vision":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "excessive hunger":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "depression":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "irritability":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "anxiety":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "increased appetite":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "migraines":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "hacking cough":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "woozy":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "dark urine":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "itchy eyes":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "nasal congestion":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "blocked nose":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "asthma":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "runnny nose":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "sneeze":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "short of breath":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "plugged nose":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "trouble swallowing":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "runny eyes":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "breathlessness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "throat itchiness":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "tremors":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "mood swings":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "weight gain":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "severe nausea":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "skin irritations":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "yeast infections":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "palpitations":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "urinary tract infections":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "tok2vec_loss":785.7093910939,
+    "ner_loss":107.5764914158
+  }
+}
